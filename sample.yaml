@@ -1,0 +1,20 @@
+---
+People:
+  - id: 1
+    code: 524.32
+    FN: Oluwatosin
+    LN: Aramide
+    Email: aoluwatosin10@gmail.com
+    Active: True
+  - id: 2
+    code: 524.32
+    FN: Dami
+    LN: Aramide
+    Email: dfamuyibo@gmail.com
+    Active: False
+  - id: 3
+    code: 524.32
+    FN: Oluwatosin
+    LN: Aramide
+    Email: aramide_tosin@yahoo.com
+    Active: True

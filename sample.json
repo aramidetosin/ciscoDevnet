@@ -1,0 +1,17 @@
+{
+  "People": [
+    {
+      "id": 1,
+      "Firstname": "Aramide",
+      "LastName": "Oluwatosin",
+      "Email": "aoluwatosin@gmail.com",
+      "Active": true
+    },
+    {
+      "id": 1,
+      "Firstname": "Aramide",
+      "LastName": "Dami",
+      "Email": "dfamuyibo@gmail.com"
+    }
+  ]
+}
