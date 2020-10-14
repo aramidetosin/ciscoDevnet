@@ -1,0 +1,8 @@
+---
+- name: Get Stats and write to desktop
+  hosts: linuxhosts
+  tasks:
+    - name: get system status and info
+      shell: uname -a > ./output.txt
+    - name: print my username
+      shell: whoami >> ./output.txt

@@ -1,0 +1,13 @@
+---
+- name: Demo Ansible loops
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Create a file
+      shell: echo 'Begin file' > ./loops.txt
+    - name: install packages
+      apt: name="{{item}}" state=latest
+      with_items:
+        - vim
+        - nano
+        - python

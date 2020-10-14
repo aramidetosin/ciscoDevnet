@@ -1,0 +1,14 @@
+---
+- name: Create loopback payload from template
+  hosts: sandbox-iosxe-latest-1.cisco.com
+  connection: local
+  tasks:
+    - name: Get some configs
+      restconf_get:
+        content: config
+        output: json
+        path: /data/ietf-interfaces:interfaces
+      register: dataout
+
+    - name: print output
+      debug: msg="{{dataout}}"

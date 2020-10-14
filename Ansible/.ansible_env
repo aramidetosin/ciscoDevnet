@@ -1,0 +1,3 @@
+export ansible_user=admin
+export ansible_password=admin
+export ansible_connection=ansible.netcommon.httpapi
